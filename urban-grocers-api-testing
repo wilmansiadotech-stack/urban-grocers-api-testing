@@ -1,0 +1,33 @@
+# QA Testing: API Foundations & Postman Verification (Urban Grocers)
+
+## 📌 Project Overview
+This repository documents the backend verification and API testing process for **Urban Grocers**, a web-based grocery delivery and e-commerce platform. The project focused on isolating the business logic layer from the user interface, utilizing **Postman** to craft requests, inspect server behaviors, and ensure seamless data exchange through structured **JSON** payloads.
+
+---
+
+## 🛠️ Core Concepts Learned & Applied
+
+### 1. API Foundations & Backend Communication
+* Investigating how client actions (like adding groceries to a shopping cart) translate into **HTTP requests** directed to the backend servers.
+
+### 2. Request & Response Lifecycle
+* Mastering endpoints, query parameters, authorization headers, and the construction of structured **JSON bodies** using core HTTP methods: `GET`, `POST`, `PUT`, and `DELETE`.
+
+### 3. API Documentation Analysis
+* Evaluating documentation specs (such as Swagger blueprints) to understand required parameters, header constraints, and data models before test execution.
+
+### 4. API Error Handling & Status Codes
+* Testing both positive and negative validation barriers, verifying that the server correctly outputs industry-standard HTTP response status codes:
+  * `200 OK` & `201 Created` for seamless product additions or cart management.
+  * `400 Bad Request` or `404 Not Found` for missing parameters or invalid product IDs.
+
+---
+
+## 📂 Test Cases & JSON Payloads
+
+Inside the repository folders, you will find real JSON structures used to simulate customer backend interactions, such as modifying product quantities and validating grocery kit creations.
+
+---
+
+## 🚀 Key Takeaways
+This project marked my transition into **backend logic verification**. Testing **Urban Grocers** at the API layer taught me how to catch data and validation bugs early in the development lifecycle before they ever hit the user interface. I fully mastered the use of **Postman** to test edge cases, parameter limits, and how a microservice architecture handles invalid requests.
